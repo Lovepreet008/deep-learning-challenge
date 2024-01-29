@@ -29,7 +29,9 @@ In this step, a neural network model is designed, compiled, trained, and evaluat
 4. Compile and train the model.
 5. Create a callback to save the model's weights every five epochs.
 6. Evaluate the model using test data to determine loss and accuracy.
+Accuracy: 0.7306122183799744, Loss: 0.5593991279602051
 7. Save and export the results to an HDF5 file named AlphabetSoupCharity.h5.
+
 
 ### Optimize the Model
 In this step, the goal is to optimize the model to achieve a target predictive accuracy higher than 75%. Methods for optimization include:
@@ -39,5 +41,10 @@ In this step, the goal is to optimize the model to achieve a target predictive a
 3. Tweaking training parameters (epochs, learning rate, etc.).
 4. After at least three attempts at optimization, a new Google Colab file named AlphabetSoupCharity_Optimization.ipynb is created. The dataset is preprocessed, and a new neural network model is designed and trained for improved accuracy. The final results are saved and exported to an HDF5 file named AlphabetSoupCharity_Optimization.h5.
 
+Loss: 0.5582514405250549, Accuracy: 0.7336443066596985
+
+## Libraries
+Import the following libararies for this model : from sklearn.model_selection import train_test_split, from sklearn.preprocessing import StandardScaler, import pandas as pd and 
+import tensorflow as tf.
 
 
